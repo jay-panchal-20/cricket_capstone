@@ -1,0 +1,6 @@
+sources:
+  - name: BRONZE
+    database: '{{target.database}}'
+    schema: DBO 
+    tables:
+      - name: BRONZE_RAW_TABLE

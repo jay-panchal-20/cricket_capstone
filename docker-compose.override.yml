@@ -1,0 +1,7 @@
+services:
+  scheduler:
+    volumes:
+      - ./dbt_exam:/usr/local/airflow/dbt_exam
+  dag-processor:
+    volumes:
+      - ./dbt_exam:/usr/local/airflow/dbt_exam
